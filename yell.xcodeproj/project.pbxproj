@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342F376B1BFF7237004C5B1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F376A1BFF7237004C5B1B /* main.m */; };
+		342F376E1BFF7237004C5B1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F376D1BFF7237004C5B1B /* AppDelegate.m */; };
+		342F37711BFF7237004C5B1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F37701BFF7237004C5B1B /* ViewController.m */; };
+		342F37741BFF7237004C5B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342F37721BFF7237004C5B1B /* Main.storyboard */; };
+		342F37771BFF7237004C5B1B /* yell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 342F37751BFF7237004C5B1B /* yell.xcdatamodeld */; };
+		342F37791BFF7237004C5B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342F37781BFF7237004C5B1B /* Assets.xcassets */; };
+		342F377C1BFF7237004C5B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342F377A1BFF7237004C5B1B /* LaunchScreen.storyboard */; };
+		342F37871BFF7237004C5B1B /* yellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F37861BFF7237004C5B1B /* yellTests.m */; };
+		342F37921BFF7237004C5B1B /* yellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342F37911BFF7237004C5B1B /* yellUITests.m */; };
+		345FB1A81BFF751400E895DE /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 345FB1A71BFF751400E895DE /* settings.plist */; };
+		A9F0BC638C75BA5AA175EA55 /* Pods_yell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857549642A4EAC9DD946C0B2 /* Pods_yell.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		342F37831BFF7237004C5B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342F375E1BFF7237004C5B1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342F37651BFF7237004C5B1B;
+			remoteInfo = yell;
+		};
+		342F378E1BFF7237004C5B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 342F375E1BFF7237004C5B1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342F37651BFF7237004C5B1B;
+			remoteInfo = yell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		342F37661BFF7237004C5B1B /* yell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342F376A1BFF7237004C5B1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		342F376C1BFF7237004C5B1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		342F376D1BFF7237004C5B1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		342F376F1BFF7237004C5B1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		342F37701BFF7237004C5B1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		342F37731BFF7237004C5B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342F37761BFF7237004C5B1B /* yell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = yell.xcdatamodel; sourceTree = "<group>"; };
+		342F37781BFF7237004C5B1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342F377B1BFF7237004C5B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		342F377D1BFF7237004C5B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342F37821BFF7237004C5B1B /* yellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342F37861BFF7237004C5B1B /* yellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yellTests.m; sourceTree = "<group>"; };
+		342F37881BFF7237004C5B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342F378D1BFF7237004C5B1B /* yellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342F37911BFF7237004C5B1B /* yellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yellUITests.m; sourceTree = "<group>"; };
+		342F37931BFF7237004C5B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345FB1A71BFF751400E895DE /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		857549642A4EAC9DD946C0B2 /* Pods_yell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCDC980F31735E8D79891FE /* Pods-yell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yell/Pods-yell.debug.xcconfig"; sourceTree = "<group>"; };
+		C6FFADF6D76BACF4F8D54459 /* Pods-yell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yell.release.xcconfig"; path = "Pods/Target Support Files/Pods-yell/Pods-yell.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342F37631BFF7237004C5B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F0BC638C75BA5AA175EA55 /* Pods_yell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342F377F1BFF7237004C5B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342F378A1BFF7237004C5B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342F375D1BFF7237004C5B1B = {
+			isa = PBXGroup;
+			children = (
+				342F37681BFF7237004C5B1B /* yell */,
+				342F37851BFF7237004C5B1B /* yellTests */,
+				342F37901BFF7237004C5B1B /* yellUITests */,
+				342F37671BFF7237004C5B1B /* Products */,
+				78D8F8CDCBBB98580513F7BF /* Pods */,
+				C7162E9D6246D819BF490E43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		342F37671BFF7237004C5B1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342F37661BFF7237004C5B1B /* yell.app */,
+				342F37821BFF7237004C5B1B /* yellTests.xctest */,
+				342F378D1BFF7237004C5B1B /* yellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342F37681BFF7237004C5B1B /* yell */ = {
+			isa = PBXGroup;
+			children = (
+				342F376C1BFF7237004C5B1B /* AppDelegate.h */,
+				342F376D1BFF7237004C5B1B /* AppDelegate.m */,
+				342F376F1BFF7237004C5B1B /* ViewController.h */,
+				342F37701BFF7237004C5B1B /* ViewController.m */,
+				342F37721BFF7237004C5B1B /* Main.storyboard */,
+				342F37781BFF7237004C5B1B /* Assets.xcassets */,
+				342F377A1BFF7237004C5B1B /* LaunchScreen.storyboard */,
+				342F377D1BFF7237004C5B1B /* Info.plist */,
+				342F37751BFF7237004C5B1B /* yell.xcdatamodeld */,
+				342F37691BFF7237004C5B1B /* Supporting Files */,
+				345FB1A71BFF751400E895DE /* settings.plist */,
+			);
+			path = yell;
+			sourceTree = "<group>";
+		};
+		342F37691BFF7237004C5B1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				342F376A1BFF7237004C5B1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		342F37851BFF7237004C5B1B /* yellTests */ = {
+			isa = PBXGroup;
+			children = (
+				342F37861BFF7237004C5B1B /* yellTests.m */,
+				342F37881BFF7237004C5B1B /* Info.plist */,
+			);
+			path = yellTests;
+			sourceTree = "<group>";
+		};
+		342F37901BFF7237004C5B1B /* yellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				342F37911BFF7237004C5B1B /* yellUITests.m */,
+				342F37931BFF7237004C5B1B /* Info.plist */,
+			);
+			path = yellUITests;
+			sourceTree = "<group>";
+		};
+		78D8F8CDCBBB98580513F7BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDC980F31735E8D79891FE /* Pods-yell.debug.xcconfig */,
+				C6FFADF6D76BACF4F8D54459 /* Pods-yell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7162E9D6246D819BF490E43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				857549642A4EAC9DD946C0B2 /* Pods_yell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342F37651BFF7237004C5B1B /* yell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342F37961BFF7237004C5B1B /* Build configuration list for PBXNativeTarget "yell" */;
+			buildPhases = (
+				DEA9B0CB9338DD7D9E260EC7 /* Check Pods Manifest.lock */,
+				342F37621BFF7237004C5B1B /* Sources */,
+				342F37631BFF7237004C5B1B /* Frameworks */,
+				342F37641BFF7237004C5B1B /* Resources */,
+				A7B1CF46BFB287BD9E017736 /* Embed Pods Frameworks */,
+				85320C2A5576C315BB13421E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yell;
+			productName = yell;
+			productReference = 342F37661BFF7237004C5B1B /* yell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		342F37811BFF7237004C5B1B /* yellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342F37991BFF7237004C5B1B /* Build configuration list for PBXNativeTarget "yellTests" */;
+			buildPhases = (
+				342F377E1BFF7237004C5B1B /* Sources */,
+				342F377F1BFF7237004C5B1B /* Frameworks */,
+				342F37801BFF7237004C5B1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342F37841BFF7237004C5B1B /* PBXTargetDependency */,
+			);
+			name = yellTests;
+			productName = yellTests;
+			productReference = 342F37821BFF7237004C5B1B /* yellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		342F378C1BFF7237004C5B1B /* yellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342F379C1BFF7237004C5B1B /* Build configuration list for PBXNativeTarget "yellUITests" */;
+			buildPhases = (
+				342F37891BFF7237004C5B1B /* Sources */,
+				342F378A1BFF7237004C5B1B /* Frameworks */,
+				342F378B1BFF7237004C5B1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342F378F1BFF7237004C5B1B /* PBXTargetDependency */,
+			);
+			name = yellUITests;
+			productName = yellUITests;
+			productReference = 342F378D1BFF7237004C5B1B /* yellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342F375E1BFF7237004C5B1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "com.neighbor-app";
+				TargetAttributes = {
+					342F37651BFF7237004C5B1B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					342F37811BFF7237004C5B1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 342F37651BFF7237004C5B1B;
+					};
+					342F378C1BFF7237004C5B1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 342F37651BFF7237004C5B1B;
+					};
+				};
+			};
+			buildConfigurationList = 342F37611BFF7237004C5B1B /* Build configuration list for PBXProject "yell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342F375D1BFF7237004C5B1B;
+			productRefGroup = 342F37671BFF7237004C5B1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342F37651BFF7237004C5B1B /* yell */,
+				342F37811BFF7237004C5B1B /* yellTests */,
+				342F378C1BFF7237004C5B1B /* yellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342F37641BFF7237004C5B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342F377C1BFF7237004C5B1B /* LaunchScreen.storyboard in Resources */,
+				345FB1A81BFF751400E895DE /* settings.plist in Resources */,
+				342F37791BFF7237004C5B1B /* Assets.xcassets in Resources */,
+				342F37741BFF7237004C5B1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342F37801BFF7237004C5B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342F378B1BFF7237004C5B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85320C2A5576C315BB13421E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yell/Pods-yell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B1CF46BFB287BD9E017736 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yell/Pods-yell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA9B0CB9338DD7D9E260EC7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342F37621BFF7237004C5B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342F37711BFF7237004C5B1B /* ViewController.m in Sources */,
+				342F376E1BFF7237004C5B1B /* AppDelegate.m in Sources */,
+				342F376B1BFF7237004C5B1B /* main.m in Sources */,
+				342F37771BFF7237004C5B1B /* yell.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342F377E1BFF7237004C5B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342F37871BFF7237004C5B1B /* yellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342F37891BFF7237004C5B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342F37921BFF7237004C5B1B /* yellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		342F37841BFF7237004C5B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342F37651BFF7237004C5B1B /* yell */;
+			targetProxy = 342F37831BFF7237004C5B1B /* PBXContainerItemProxy */;
+		};
+		342F378F1BFF7237004C5B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 342F37651BFF7237004C5B1B /* yell */;
+			targetProxy = 342F378E1BFF7237004C5B1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		342F37721BFF7237004C5B1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342F37731BFF7237004C5B1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		342F377A1BFF7237004C5B1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342F377B1BFF7237004C5B1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342F37941BFF7237004C5B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		342F37951BFF7237004C5B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342F37971BFF7237004C5B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCDC980F31735E8D79891FE /* Pods-yell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neighbor-app.yell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		342F37981BFF7237004C5B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6FFADF6D76BACF4F8D54459 /* Pods-yell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neighbor-app.yell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		342F379A1BFF7237004C5B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neighbor-app.yellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yell.app/yell";
+			};
+			name = Debug;
+		};
+		342F379B1BFF7237004C5B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neighbor-app.yellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yell.app/yell";
+			};
+			name = Release;
+		};
+		342F379D1BFF7237004C5B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neighbor-app.yellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		342F379E1BFF7237004C5B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = yellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neighbor-app.yellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342F37611BFF7237004C5B1B /* Build configuration list for PBXProject "yell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342F37941BFF7237004C5B1B /* Debug */,
+				342F37951BFF7237004C5B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342F37961BFF7237004C5B1B /* Build configuration list for PBXNativeTarget "yell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342F37971BFF7237004C5B1B /* Debug */,
+				342F37981BFF7237004C5B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342F37991BFF7237004C5B1B /* Build configuration list for PBXNativeTarget "yellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342F379A1BFF7237004C5B1B /* Debug */,
+				342F379B1BFF7237004C5B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342F379C1BFF7237004C5B1B /* Build configuration list for PBXNativeTarget "yellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342F379D1BFF7237004C5B1B /* Debug */,
+				342F379E1BFF7237004C5B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		342F37751BFF7237004C5B1B /* yell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				342F37761BFF7237004C5B1B /* yell.xcdatamodel */,
+			);
+			currentVersion = 342F37761BFF7237004C5B1B /* yell.xcdatamodel */;
+			path = yell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 342F375E1BFF7237004C5B1B /* Project object */;
+}
